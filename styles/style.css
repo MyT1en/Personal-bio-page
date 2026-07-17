@@ -1,36 +1,40 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: beige;
+    background-color: rgb(255, 208, 218);
+}
+.dark-mode {
+    background-color: rgb(90, 55, 59);
+    text-color: rgb(255, 208, 218);
 }
 ul li a:hover {
     background-color: #111111;
 }
 h1 {
-    color:black;
+    color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 36px;
 }
 h2 {
     color: black;
-    font-family:sans-serif;
+    font-family: sans-serif;
     font-size: 24px;
 }
 h3 {
-    color:rgb(105, 76, 76);
+    color: rgb(58, 3, 35);
     font-family: sans-serif;
-    font-size:  20px;
+    font-size: 20px;
 }
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 16;
+    font-size: 16px;
 }
 a {
     color: rgb(207, 21, 176);
     background-color: rgb(0, 0, 0);
     font-weight: bold;
 }
-ul1 {
+.nav-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -39,14 +43,30 @@ ul1 {
     display: flex;
     justify-content: space-around;
 }
-ul1 li {
+.nav-list li {
     float: left;
 }
-ul1 li a {
+.nav-list li a {
     display: block;
-    color:azure;
+    color: azure;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-family: Arial, sans-serif;
+}
+
+#dark-mode-toggle {
+    margin: 10px 0;
+    padding: 8px 14px;
+    cursor: pointer;
+    background-color: rgb(24, 6, 68);
+    color: azure;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
